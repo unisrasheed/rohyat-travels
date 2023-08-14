@@ -7,6 +7,20 @@
     list-style: none;
 }
 
+#insta-icon{
+    background: none;
+    border-radius: 50%;
+}
+.header-info-par a{
+    background:none !important;
+}
+.header-info-par a:after{
+    content: "" !important;
+}
+/* .header-info-par a:hover{
+    content: "" !important;
+    background-color: #333;
+} */
 /* Conmmon Classes */
 .container{
     max-width: 1200px;
@@ -31,7 +45,9 @@ a{
 .img-responsive{
     max-width: 100%;
     display: block;
-    height: auto;
+    height: 300px;
+    width: 330px;
+    
 }
 i.fa.fa-arrow-up{
     position: fixed;
@@ -140,8 +156,8 @@ video#video{
     padding: 30px 0px;
 }
 .header-info-par a{
-    background-color: #fff;
-    color: #00a8b4;
+    /* background-color: #fff;
+    color: #00a8b4; */
     padding: 17px 45px;
     display: inline-block;
     margin-top: 25px;
@@ -150,17 +166,17 @@ video#video{
 }
 
 .header-info-par a:after{
-    content: "Read More";
-    position: absolute;
+    /* content: "Read More"; */
+    /* position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #00a8b4;
-    color: #fff;
+    /* background-color: #00a8b4; */
+    /* color: #fff;
     width: 0%;
     height: 100%;
     line-height: 50px;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease;  */
 }
 .header-info-par a:hover:after{
     width: 100%;
@@ -233,10 +249,10 @@ section#welcome-text p{
 }
 
 .slide_2{ 
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/recipe_slides/recipe1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/gulmarg.jpg);
 }
 .slide_3{ 
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/recipe_slides/recipe2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/sonarmarg.jpg);
 }
 .slide_4{ 
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/recipe_slides/recipe3.jpg);
@@ -248,10 +264,10 @@ section#welcome-text p{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/recipe_slides/recipe5.jpg);
 }
 .slide_7{ 
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/recipe_slides/recipe6.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/dal-lakepg.jpg);
 }
 .slide_8{ 
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/recipe_slides/recipe7.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/nilnag.jpg);
 }
 /* book section */
 #book{
