@@ -463,6 +463,11 @@ window.addEventListener("load", function() {
     openPopup();
 });
 
+        // JavaScript code to hide the popup on scroll
+        window.addEventListener('scroll', function() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'none';
+        });
     </script>
 
 
